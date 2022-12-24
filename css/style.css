@@ -3,8 +3,6 @@
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
-}
-main {  
   text-align: center;
 }
 
@@ -24,16 +22,16 @@ main {
 
 /* Propiedades box  */
 
-.box{
-  border-radius: 0.5em 2em 0.5em 2em ;
-  box-shadow: 0em 0em 2em 0em ;  
+.box {
+  border-radius: 0.5em 2em 0.5em 2em;
+  box-shadow: 0em 0em 2em 0em;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  width: 800px;  
+  width: 800px;
 }
 
-.box__ubicacion{
+.box__ubicacion {
   background-color: rgb(36, 36, 22);
   border: 0.2em solid rgb(216, 218, 57);
   border-radius: 2em;
@@ -43,17 +41,17 @@ main {
   padding: 1em;
 }
 
-.box__nombre{
+.box__nombre {
   font-size: 4em;
   font-weight: 700;
   margin-bottom: 1em;
   margin-top: 1em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
-.box__footer{
-  background-color: rgb(36, 36, 22); 
-  color: white;  
+.box__footer {
+  background-color: rgb(36, 36, 22);
+  color: white;
   font-size: 2em;
   font-weight: 700;
   padding: 0.5em;
@@ -61,9 +59,9 @@ main {
 }
 
 /* Propiedades de la foto */
-.box__foto{
-  border-bottom: 0.5em solid rgb(36, 36, 22); 
+.box__foto {
+  border-bottom: 0.5em solid rgb(36, 36, 22);
   text-align: center;
-  height: 400px;  
+  height: 400px;
   width: 800px;
 }
