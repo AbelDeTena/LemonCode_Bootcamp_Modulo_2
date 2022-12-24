@@ -13,8 +13,8 @@
   color: white;
   margin-bottom: 3em;
   padding: 1.5em;
-  text-align: center;
 }
+
 .cabecera > h1 {
   font-size: 2em;
   font-weight: 700;
@@ -55,13 +55,11 @@
   font-size: 2em;
   font-weight: 700;
   padding: 0.5em;
-  text-align: center;
 }
 
 /* Propiedades de la foto */
 .box__foto {
   border-bottom: 0.5em solid rgb(36, 36, 22);
-  text-align: center;
   height: 400px;
   width: 800px;
 }
